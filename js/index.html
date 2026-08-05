@@ -1,0 +1,193 @@
+<!-- root of page -->
+<!-- <html> </html> 
+
+<head> <big> ToDo </head> </big>  -->
+
+<!-- Choose Options -->
+
+<!-- <button onclick="document.getElementById('Short Term').scrollIntoView({behavior: 'smooth'})"> 
+    Short Term Plan 
+</button>
+
+<button onclick="document.getElementById('Long Term').scrollIntoView({behavior: 'fast'})"> 
+    Long Term Plan 
+</button> -->
+
+<!-- <button onclick="document.getElementById('Input Plan').scrollIntoView({behavior: 'fast'})"> 
+    Input Plan 
+</button> -->
+
+<!-- View Options -->
+
+<!-- --------------- -->
+<!-- Short Term -->
+<!-- --------------- -->
+
+<!-- <section id="Short Term">
+    <h2>Short Term Plan</h2>
+</section> -->
+
+<!-- Display <this> Week -->
+<!-- --------------- -->
+
+<!-- <td> 
+    Monday 
+    Tuesday 
+</td> -->
+
+<!-- show this current week 
+day - date format
+reads input and places  -->
+
+<!-- --------------- -->
+<!-- Long Term -->
+ <!-- --------------- -->
+
+
+<!-- <section id="Long Term">
+    <h2>Long Term Plan</h2>
+</section> -->
+
+<!-- Display Calendar -->
+
+<!-- --------------- -->
+<!-- Input Plan -->
+ <!-- --------------- -->
+
+<!-- <section id="Input Plan">
+    <h2>Input Plan</h2>
+</section> -->
+
+<!-- Create Input -->
+
+<!-- Short Term Input 
+
+Input Task
+Input Date
+Input Time
+Again? -->
+
+<!-- -------------------------- -->
+<!-- header -->
+<!-- -------------------------- -->
+ <!DOCTYPE html>
+<html lang = "en">
+<head>
+
+<!--
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            align-items: center;
+        }
+
+        h1 {
+            color: rgb(18, 84, 84);
+            text-align: center;
+        }
+
+        .input-section {
+            display: flex;
+        }
+    </style>
+
+    <body>
+        <div class= "input">
+            <h1> My ToDo List</h1>
+            <div class="input-section">
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Enter Task"
+                    aria-label="New Task"
+                >
+                <button id="addBtn">Add Task</button>
+            </div>
+
+            <ul id="taskList">
+                <li class="empty"> No tasks. Add one above... </li>
+            </ul>
+        </div>  
+    </body>
+-->
+    
+
+    <!-- lets create a calendar in this section -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    />
+    <script defer src="js/script.js"></script>
+    <title>Calendar</title>
+
+    <!-- beginning of body -->
+    <body>
+        <div class="calendar">
+            <div class="calendar_inner">
+                <div class="calendar_controls">
+                    <div class="calendar_headings">
+                        <i class="fa fa-chevron-left"></i>
+                        <h2 class="month_year">July, 2026</h2>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="current_datetime">
+                        <p class="daytxt">Today</p>
+                        <p class="datetxt">Thu, 30, Jul 2026</p>
+                    </div>
+                    <div class="calendar_days">
+                        <ul class="days">
+                            <li>Sun</li>
+                            <li>Mon</li>
+                            <li>Tue</li>
+                            <li>Wed</li>
+                            <li>Thu</li>
+                            <li>Fri</li>
+                            <li>Sat</li>
+                        </ul>
+                        <ul class="dates">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li class="active">30</li>
+                            <li>31</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
